@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40px"
+    android:paddingRight="40px"
+    android:paddingTop="40px"
+    android:layout_marginBottom="40px"
+    tools:context="com.example.pc.pawanvigmanrajkaur_comp304lab4_ex1.PatientFormActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Patient"
+            android:id="@+id/patientHeadingLabel"
+            android:textSize="80px" />
+
+        <TextView
+            android:id="@+id/labelPatientId"
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Patient ID"/>
+        <EditText
+            android:id="@+id/txtPatientId"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name"/>
+        <EditText
+            android:id="@+id/txtFirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name"/>
+        <EditText
+            android:id="@+id/txtLastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department"/>
+        <EditText
+            android:id="@+id/txtDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doctor ID"/>
+        <EditText
+            android:id="@+id/txtDoctorId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room"/>
+        <EditText
+            android:id="@+id/txtRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/saveBtn"
+            android:layout_marginTop="20px"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

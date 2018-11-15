@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.pawanvigmanrajkaur_comp304lab4_ex1.DoctorActivity"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="8dp"
+    android:paddingLeft="30px"
+    android:paddingRight="30px"
+    android:layout_marginBottom="40px"
+    android:paddingTop="40px">
+
+    <Button
+        android:id="@+id/btnNurses"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginBottom="20px"
+        android:onClick="onClick"
+        android:paddingLeft="80px"
+        android:text="Check Nurses"
+        android:textAllCaps="false"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/btnPatients"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="20px"
+        android:onClick="onClick"
+        android:paddingLeft="80px"
+        android:text="Check Patients"
+        android:textAllCaps="false"
+        android:textSize="50px" />
+
+    <Button
+        android:id="@+id/btnTests"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:onClick="onClick"
+        android:paddingLeft="80px"
+        android:text="Show Tests"
+        android:textAllCaps="false"
+        android:textSize="50px" />
+</LinearLayout>

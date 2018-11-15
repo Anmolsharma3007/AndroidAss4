@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40px"
+    android:paddingRight="40px"
+    android:paddingTop="40px"
+    android:layout_marginBottom="40px"
+    tools:context="com.example.pc.pawanvigmanrajkaur_comp304lab4_ex1.TestFormActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/testHeadingLabel"
+            android:textSize="80px"
+            android:text="New Test"/>
+
+        <TextView
+            android:id="@+id/labelTestId"
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="Test ID"/>
+        <EditText
+            android:id="@+id/txtTestId"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Patient ID"/>
+        <EditText
+            android:id="@+id/txtPatientId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nurse ID"/>
+        <EditText
+            android:id="@+id/txtNurseId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BPL"/>
+        <EditText
+            android:id="@+id/txtBpl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BPH"/>
+        <EditText
+            android:id="@+id/txtBph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature"/>
+        <EditText
+            android:id="@+id/txtTemperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/saveBtn"
+            android:layout_marginTop="20px"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
